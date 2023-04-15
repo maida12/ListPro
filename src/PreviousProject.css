@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content:flex-start;
+    height: 100vh;
+    background:linear-gradient(to left,#891180, white);
+    color: black;
+    padding: 100px;
+    padding-left: 200px;
+  }
+  
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #891180;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  button {
+    background-color: #891180;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: violet;
+  }
+  
