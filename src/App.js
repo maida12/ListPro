@@ -1,10 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import Login from './Login';
+
+// import MyForm from './Newproject';
+// import Newproject from './Newproject';
+import Sidebar from './Sidebar'
+
 
 function App() {
   return (
-    <Login/>
+    //<Login/>
+    //<MainPage/>
+ //<Newproject/>
+    <Sidebar/>
+
   );
 }
 
