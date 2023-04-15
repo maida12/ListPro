@@ -1,3 +1,7 @@
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -8,26 +12,26 @@
 }
 .banner-area{
    
-    flex: 50%;
+    flex: 70%;
     /* -webkit-background-size:cover ; */
-    height: 100vh;
-    width: auto;
-    margin: auto;
+    height: 120vh;
+
+    
 }
 
 .banner-text{
-    position: absolute;
-    width: 900px;
-    height: 500px;
-    margin-top: 10% ;
-    padding: 0;
+    
+    width: 1000px;
+    height: 600px;
    
+   
+    
    
 }
 .banner-text h1{
     
     color:white;
-    margin: 40px;
+    margin-left: 300px;
     text-transform: uppercase;
     font-size: 60px;
     font-family: 'poppins' , sans-serif;
@@ -42,7 +46,7 @@
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
-    margin-top: 20px;
+    margin-top: 10px;
     display: inline-block;
     color: #fff;
 }
@@ -52,27 +56,31 @@
     font-weight: bold;
 }
 .bt1 img{
-    width:150px;
-    height: 150px;
+    width:400px;
+    height: 300px;
 }
 .bt1{
     
-    height: 300px;
-    width: 200px;
+    height: 500px;
+    width: 500px;
+    padding: 30px;
+   
     
 }
 .b{
     display: flex;
-    margin-top: 40px;
-    padding-left: 100px;;
+    margin-top: 10px;
+    padding-left: 100px;
+    
+ 
     height: 300px;
-    width: 800px;
+    width: 1000px;
     text-align: center;
   
    
 }
 .hi{
-    flex:50%;
+    flex:30%;
 }
 img{
     height:100%;
@@ -80,4 +88,5 @@ img{
     max-width: 100%;
   max-height:100%;
 }
+
 

@@ -15,36 +15,40 @@ function MyForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="MyForm">
-      <label htmlFor="name">Name:</label>
-      <input type="text" id="name" value={name} onChange={(e) => setName(e.target.value)} />
+    <div className='main'>
+      
+<head>
+    <title>Homepage design</title>
+</head>
 
-      <label htmlFor="email">Email:</label>
-      <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+<body>
+    <div class="banner-area">
+    <header>
+           <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Serrvices</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
 
-      <label htmlFor="message">Message:</label>
-      <textarea id="message" value={message} onChange={(e) => setMessage(e.target.value)} />
+        </header>
+        <div class="banner-text">
+            <h1>HomePage Design</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic autem harum eaque aut deserunt pariatur eum
+                ea, sequi minus nam veniam atque et quisquam molestiae aperiam! Iusto, ipsum.</p>
+            <a href="#">Read More</a>
+            <a href="#">Watch More</a>
+        </div>
 
-      <p className="gender-label">Gender:</p>
-      <div className="radio-group">
-        <label htmlFor="male">
-          <input type="radio" id="male" name="gender" value="male" checked={gender === 'male'} onChange={(e) => setGender(e.target.value)} />
-          <span>Male</span>
-        </label>
 
-        <label htmlFor="female">
-          <input type="radio" id="female" name="gender" value="female" checked={gender === 'female'} onChange={(e) => setGender(e.target.value)} />
-          <span>Female</span>
-        </label>
+    </div>
+</body>
 
-        <label htmlFor="other">
-          <input type="radio" id="other" name="gender" value="other" checked={gender === 'other'} onChange={(e) => setGender(e.target.value)} />
-          <span>Other</span>
-        </label>
-      </div>
 
-      <button type="submit">Submit</button>
-    </form>
+    </div>
   );
 }
 

@@ -1,82 +1,43 @@
-import './MainPage.css';
+import React from 'react';
 
-const Main =()=>
-{
-    
+import './MainPage.css'
+function MainPage() {
   
-    return(
-    
-  <div>
-    <head>
-        <title>Document</title>
-    </head>
-    <body>
-        <div class="wrapper">
-            <div class="sidebar">
-            <div class="profile">
-                <img src="https://1.bp.blogspot.com/-vhmWFWO2r8U/YLjr2A57toI/AAAAAAAACO4/0GBonlEZPmAiQW4uvkCTm5LvlJVd_-l_wCNcBGAsYHQ/s16000/team-1-2.jpg" alt="profile_picture"></img>
-                <h3>Anamika Roy</h3>
-                <p>Designer</p>
-            </div>
-            <ul>
-                <li>
-                    <a href="#" class="active">
-                        <span class="icon"><i class="fas fa-home"></i></span>
-                        <span class="item">Home</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-desktop"></i></span>
-                        <span class="item">My Dashboard</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-user-friends"></i></span>
-                        <span class="item">People</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
-                        <span class="item">Perfomance</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-database"></i></span>
-                        <span class="item">Development</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-chart-line"></i></span>
-                        <span class="item">Reports</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-user-shield"></i></span>
-                        <span class="item">Admin</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-cog"></i></span>
-                        <span class="item">Settings</span>
-                    </a>
-                </li>
-            </ul>
+  return (
+    <div className='main'>
+      
+       
+              <div class="banner-area">
+        <div class="banner-text">
+        <h1>Project Homepage</h1>
+                <div className='b'>
+                <div className='bt1'>
+                    <img src="https://png.pngtree.com/png-vector/20190701/ourmid/pngtree-reports-icon-for-your-project-png-image_1532801.jpg"></img>
+                    <a href="#">My Tasks</a>
+                    </div>
+                    <div className='bt1'>
+                    <img src="https://previews.123rf.com/images/anthonycz/anthonycz1308/anthonycz130800007/21437969-note-pad-and-pencil.jpg"></img>
+                    <a href="#">My Notes</a>
+                    </div>
+                    <div className='bt1'>
+                    <img src="https://media.istockphoto.com/id/1138356518/vector/clipboard-witch-checklist-wishlist-line-icon-editable-stroke-pixel-perfect-for-mobile-and-web.jpg?s=612x612&w=0&k=20&c=uPOrOwUNoMFNada3DSDbUVwq7O2t2Kq6-Y-xYF9Z44c="></img>
+                    <a href="#">My Reports</a>
+                    </div>
+                    </div>
+                
         </div>
-           
-           
 
-        </div>
-    </body>
+
     </div>
-   
+    <div className='hi'>
+        <img src='https://static.vecteezy.com/system/resources/previews/006/317/719/original/time-management-concept-can-use-for-web-banner-infographics-hero-images-flat-isometric-illustration-isolated-on-white-background-vector.jpg'></img>
+    </div>
+      
 
-    )
+
+
+    </div>
+  );
 }
-export default Main;
+
+export default MainPage;

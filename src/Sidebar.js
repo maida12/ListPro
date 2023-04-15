@@ -4,7 +4,7 @@ import './Sidebar.css';
 const Sidebar = () => {
 
     
-        function getside(){
+        const getside=()=>{
             var getSidebar = document.querySelector('nav');
             var getToggle = document.getElementsByClassName('toggle');
             for (var i = 0; i <= getToggle.length; i++) {
@@ -22,7 +22,7 @@ const Sidebar = () => {
           return (
             <div>
             <header>
-            <div class="toggle" onClick={getside}>
+            <div class="toggle" >
                 <i class="fas fa-bars"></i>
             </div>
             <h3>Dashboard</h3>
@@ -33,7 +33,7 @@ const Sidebar = () => {
         <nav>
             <ul>
                 <li>
-                    <a class="toggle" >
+                    <a class="toggle"  onClick={getside}>
                         <span class="icon" ><i class="fas fa-bars"></i></span>
                         <span class="title">Menu</span>
                     </a>
