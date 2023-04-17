@@ -1,0 +1,49 @@
+body{
+    background-color: #E7B0F8;  
+    font-family: "Poppins", "robotoregular", sans-serif;
+
+}
+
+.container{
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;    
+}
+
+
+.text{
+    display:flex;
+    margin-bottom: 20px;
+}
+
+.label{
+    flex:50%;
+}
+
+.value{
+    flex:50%;
+}
+
+input{
+        height: 20px;
+       border: none;
+}
+
+select{
+    height: 25px;
+}
+
+button{
+    margin-left: 200px;
+    font-size: 15px;
+    background-color: #E7B0F8;
+    border: 1px solid grey;
+}
+
+.icon{
+    padding-right: 20px;
+    
+}
