@@ -1,0 +1,56 @@
+.bodyyyNotesDetail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.NotesDetail-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(196, 185, 206, 0.623);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  padding: 20px;
+  text-align: center; /* Center the items horizontally */
+  justify-content: center;
+  align-self: center;
+}
+
+.task-image {
+  max-width: 100%;
+  max-height: 50vh;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.text {
+  margin-bottom: 10px;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.value .textArea {
+  width: 100%;
+  padding: 10px;
+  height: 150px;
+}
+
+.btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  align-self: center;
+}

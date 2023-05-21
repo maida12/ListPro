@@ -1,0 +1,27 @@
+.report-container {
+    padding: 10%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .percentage-container {
+    flex: 0 0 30%;
+    margin-right: 20px;
+    padding: 100px;
+  }
+  
+  .percentage-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .percentage-label {
+    font-weight: bold;
+  }
+  
+  .chart-container {
+    flex-grow: 1;
+  }
+  

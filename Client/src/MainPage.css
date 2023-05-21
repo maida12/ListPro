@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.MainPage-main{
+    background-color: #b361ac;
+    display: flex;
+}
+.MainPage-banner-area{
+   
+    flex: 50%;
+    /* -webkit-background-size:cover ; */
+    height: 100vh;
+    width: auto;
+    margin: auto;
+}
+
+.MainPage-banner-text{
+    position: absolute;
+    width: 900px;
+    height: 500px;
+    margin-top: 10% ;
+   
+
+    padding: 0;
+   
+   
+}
+.MainPage-banner-text h1{
+    
+    color:white;
+  
+    margin-left: 80px;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: 'poppins' , sans-serif;
+}
+.MainPage-banner-text p{
+    color: #fff;
+    font-size: 18px;
+}
+.MainPage-banner-text a{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+.banner-text a:hover{
+    background-color: white;
+    color: rgba(68, 25, 109, 0.623);
+    font-weight: bold;
+}
+.MainPage-bt1 img{
+    width:150px;
+    height: 150px;
+}
+.MainPage-bt1{
+    
+    height: 300px;
+    width: 200px;
+    
+}
+.MainPage-b{
+    display: flex;
+    margin-top: 40px;
+    padding-left: 100px;;
+    height: 300px;
+    width: 800px;
+    text-align: center;
+  
+   
+}
+.MainPage-hi{
+    flex:50%;
+}
+.MainPage-hi img{
+    height:100%;
+    width: 100%;
+    max-width: 100%;
+  max-height:100%;
+}
+.MainPage-bt1 :hover {
+    /* Add your hover styles here */
+    color: #891180;
+    text-decoration: underline;
+    /* Additional styles */
+    /* ... */
+  }
+

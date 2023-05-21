@@ -1,0 +1,57 @@
+.bb{
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #891180, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+
+    background: linear-gradient(to left, #891180, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    margin:0;
+    padding: 0;
+}
+
+
+.MyForm{
+    
+    padding-top: 100px;
+}
+
+
+
+.form{
+    width: 560px;
+    height: 500px;
+    background-color: white;
+    border-radius: 5px;
+   
+    margin:  auto;
+    padding: 20px;
+    
+    /* height: 600px; */
+}
+
+.form-body{
+    text-align: left;
+    padding: 20px 10px;
+}
+
+.form-body > *{
+    padding: 5px;
+}
+
+.form__label{
+    width: 40%;
+}
+
+.form_input{
+    width: 60%;
+}
+
+.footer{
+    text-align: center;
+}
+.myimg{
+    width: 100px;;
+    height: 100px;
+}
+.NewProject-error{
+    color: red;
+}
